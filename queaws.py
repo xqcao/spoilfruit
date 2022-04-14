@@ -33,7 +33,7 @@ class Solution:
         q_1 +=q_2
         q_2=[]
         obj_new_2 ={(i,j):False for i in range(m) for j in range(n)}
-      if count>=m*n*2:
+      if count>m*n:
         return -1
       print("count",count)
       count=count+1
