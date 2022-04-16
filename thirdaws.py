@@ -88,15 +88,15 @@ input=[
 #   [1],
 #   [2],
 # ]
-input=[
-  [1],
-  [0],
-  [1],
-  [1],
-  [2],
-]
-for x in input:
-  print(x)
-s = Solution().countSpoil(input)
-print("result===>",input)
-print("result",s)
+# input=[
+#   [1],
+#   [0],
+#   [1],
+#   [1],
+#   [2],
+# ]
+# for x in input:
+#   print(x)
+# s = Solution().countSpoil(input)
+# print("result===>",input)
+# print("result",s)
